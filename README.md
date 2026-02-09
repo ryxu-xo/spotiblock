@@ -238,4 +238,3 @@ This tool modifies system files. Use at your own risk and ensure you understand 
 ## Credits
 
 - Made by ryxu-xo.
-- UI/CLI design direction: Goodshit Designs (interactive feel).
