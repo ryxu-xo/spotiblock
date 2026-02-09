@@ -54,15 +54,6 @@ Pin a version (macOS/Linux):
 VERSION=v1.0.0 curl -fsSL https://raw.githubusercontent.com/ryxu-xo/spotiblock/main/install.sh | bash
 ```
 
-The installers download these release assets:
-
-- `spotiblock-windows-amd64.exe`
-- `spotiblock-windows-arm64.exe`
-- `spotiblock-linux-amd64`
-- `spotiblock-linux-arm64`
-- `spotiblock-darwin-amd64`
-- `spotiblock-darwin-arm64`
-
 After install, you can run:
 
 ```bash
@@ -237,4 +228,3 @@ This tool modifies system files. Use at your own risk and ensure you understand 
 ## Credits
 
 - Made by ryxu-xo.
-- UI/CLI design direction: Goodshit Designs (interactive feel).
