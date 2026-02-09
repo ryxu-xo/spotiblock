@@ -13,8 +13,8 @@ function Install-App {
     New-Item -ItemType Directory -Path $InstallDir -Force | Out-Null
 
     $versionPath = if ($Version -eq "latest") { "latest" } else { "download/$Version" }
-    $baseUrl = "https://github.com/REPLACE_OWNER/REPLACE_REPO/releases/$versionPath"
-    $rawUrl = "https://raw.githubusercontent.com/REPLACE_OWNER/REPLACE_REPO/main"
+    $baseUrl = "https://github.com/ryxu-xo/spotiblock/releases/$versionPath"
+    $rawUrl = "https://raw.githubusercontent.com/ryxu-xo/spotiblock/main"
     $arch = $env:PROCESSOR_ARCHITECTURE
     if ($arch -eq "ARM64") {
         $binaryName = "spotiblock-windows-arm64.exe"

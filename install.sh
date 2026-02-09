@@ -58,8 +58,8 @@ install_app() {
     version_path="download/$VERSION"
   fi
 
-  local base_url="https://github.com/REPLACE_OWNER/REPLACE_REPO/releases/$version_path"
-  local raw_url="https://raw.githubusercontent.com/REPLACE_OWNER/REPLACE_REPO/main"
+  local base_url="https://github.com/ryxu-xo/spotiblock/releases/$version_path"
+  local raw_url="https://raw.githubusercontent.com/ryxu-xo/spotiblock/main"
   local binary_name="spotiblock-$os_name-$arch"
   download_file "$base_url/$binary_name" "$INSTALL_DIR/spotiblock"
   chmod +x "$INSTALL_DIR/spotiblock"

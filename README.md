@@ -1,8 +1,8 @@
 # Spotify Adblocker (Local Hosts)
 
 ![Go Version](https://img.shields.io/badge/go-1.22-blue)
-![Release](https://img.shields.io/github/v/release/REPLACE_OWNER/REPLACE_REPO)
-![Downloads](https://img.shields.io/github/downloads/REPLACE_OWNER/REPLACE_REPO/total)
+![Release](https://img.shields.io/github/v/release/ryxu-xo/spotiblock)
+![Downloads](https://img.shields.io/github/downloads/ryxu-xo/spotiblock/total)
 ![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macOS%20%7C%20linux-success)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
@@ -30,35 +30,34 @@ No Python runtime is required when using the Go binary.
 
 ### One-line Install (CLI style)
 
-Replace `REPLACE_OWNER/REPLACE_REPO` in the commands below with your GitHub repo.
-
 Windows (PowerShell):
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/REPLACE_OWNER/REPLACE_REPO/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/ryxu-xo/spotiblock/main/install.ps1 | iex
 ```
 
 Pin a version (PowerShell):
 
 ```powershell
-$env:Version = "v1.0.0"; iwr -useb https://raw.githubusercontent.com/REPLACE_OWNER/REPLACE_REPO/main/install.ps1 | iex
+$env:Version = "v1.0.0"; iwr -useb https://raw.githubusercontent.com/ryxu-xo/spotiblock/main/install.ps1 | iex
 ```
 
 macOS/Linux:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/REPLACE_OWNER/REPLACE_REPO/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ryxu-xo/spotiblock/main/install.sh | bash
 ```
 
 Pin a version (macOS/Linux):
 
 ```bash
-VERSION=v1.0.0 curl -fsSL https://raw.githubusercontent.com/REPLACE_OWNER/REPLACE_REPO/main/install.sh | bash
+VERSION=v1.0.0 curl -fsSL https://raw.githubusercontent.com/ryxu-xo/spotiblock/main/install.sh | bash
 ```
 
 The installers download these release assets:
 
 - `spotiblock-windows-amd64.exe`
+- `spotiblock-windows-arm64.exe`
 - `spotiblock-linux-amd64`
 - `spotiblock-linux-arm64`
 - `spotiblock-darwin-amd64`
@@ -238,3 +237,4 @@ This tool modifies system files. Use at your own risk and ensure you understand 
 ## Credits
 
 - Made by ryxu-xo.
+- UI/CLI design direction: Goodshit Designs (interactive feel).
